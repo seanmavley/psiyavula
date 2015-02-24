@@ -17,14 +17,14 @@ Run code locally
 To run this repo locally, please follow the steps below:
 
 1. Clone this repository
-2. You must have Python, Pyramid, and BeautifulSoup installed. Or in the parent directory of this repo, type ``sudo pip install -r requirements.txt``
-3. In parent directory of this repo, type, ``python manage.py runserver``
+2. You must have Python, Pyramid, and BeautifulSoup installed.
+3. In parent directory of this repo, type, 'pserve develepment.ini' to kick the development server into action
 4. Visit localhost:6543 in your browser to see home page appear
 5. Follow on screen steps to proceed.
 
 Running Tests
 =============
-I haven't succeeded with testing yet.  I find their documentation not straightforward, and approach to testing unintuitive, at least, so far.
+I haven't succeeded with testing yet.  I find Pyramid's documentation not straightforward on testing, and their approach to testing unintuitive, at least, so far. I'm still learning.
 
 Current Features
 ================
@@ -38,14 +38,13 @@ Bonus features
 
 - The application checks for user input that is not a valid Wikipedia URL and posts an error message stating this. Without even a url, form won't validate (based on basic HTML5 form validations. No server side validation done)
 - In the event that a Wikipedia page has no table of contents, a suitable error message is given.
-- Each view and method created for this application, has a unit test. An in-browser test via selenium is added as well. Code is tested to best of unit testing. Python module, Coverage indicates so.
 - The source code is fully PEP8 compliant: https://www.python.org/dev/peps/pep-0008/. Anaconda plugin for Python used, via Sublime Text 3
 
 Extras
 ======
 - Styling NOT mandatory, but I added.
 - Development of this app was done solely on Ubuntu 14.04 LTS
-- Python version used is 2.7
+- Python version used is 2.7+
 
 What is left?
 =============
